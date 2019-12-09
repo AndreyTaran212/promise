@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Name",
+    "age": 22
+  },
+  {
+    "name": "Name",
+    "age": 33
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "profilePicture": "",
+    "id": 3
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "profilePicture": "",
+    "id": 4
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "profilePicture": "",
+    "id": 5
+  },
+  {
+    "name": "Name",
+    "surname": "Surname",
+    "profilePicture": "",
+    "id": 6
+  }
+]

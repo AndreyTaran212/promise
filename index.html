@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #usersList {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .userListItem {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            min-height: 200px;
+            max-width: 300px;
+            flex-basis: 300px;
+
+            background-color: cadetblue;
+            border: 2px solid darkcyan;
+        }
+
+        .profilePictureContainer {
+
+            width: 120px;
+            height: 120px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        .profilePictureContainer > img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+<ul id="usersList">
+    <li id="0" class="userListItem">
+        <div class="profilePictureContainer">
+            <img src="" alt="#">
+        </div>
+        <h3 class="userFullName">Java Script</h3>
+
+    </li>
+</ul>
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
+
